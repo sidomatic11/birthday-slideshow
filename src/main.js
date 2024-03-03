@@ -326,7 +326,7 @@ function animate() {
 	stats.end();
 }
 
-document.getElementById("start-button").addEventListener("click", (event) => {
+document.getElementById("start-button").addEventListener("click", () => {
 	document.getElementById("loader-screen").remove();
 	animate();
 	sound.play();
